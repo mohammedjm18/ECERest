@@ -14,6 +14,7 @@ const allowedOrigins = [
   'http://172.20.10.5:3000',
   'http://172.20.10.5:3001'
 ];
+
 app.use(cors({
   origin: (origin, callback) => {
     if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
