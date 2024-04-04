@@ -6,14 +6,14 @@ const http = require('http');
 const server = http.createServer(app);
 
 const cors = require("cors");
-// const allowedOrigins = [
-//   'https://ecerest.onrender.com',
-//   'https://ecerest2.onrender.com'
-// ];
 const allowedOrigins = [
-  'http://172.20.10.5:3000',
-  'http://172.20.10.5:3001'
+  'https://ecerest-customer-frontend.onrender.com',
+  'https://ece-rest-management-frontend.onrender.com'
 ];
+// const allowedOrigins = [
+//   'http://172.20.10.5:3000',
+//   'http://172.20.10.5:3001'
+// ];
 
 app.use(cors({
   origin: (origin, callback) => {
