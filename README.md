@@ -36,9 +36,15 @@ This project is divided into two separate frontend applications, one for custome
 - **Management**: <https://ece-rest-management-frontend.onrender.com>
 
 ## usernames and passwords for management frontend
-- Admin Username: Mohammed              Admin Password: 12345678
-- Cashier Username: rezan_segvan        Cashier Password: 12345678
-- Chef Username: omar_jalal             Chef Password: 12345678
+- **Admin Username**: Mohammed  
+  **Admin Password**: 12345678
+  
+- **Cashier Username**: rezan_segvan  
+  **Cashier Password**: 12345678
+  
+- **Chef Username**: omar_jalal  
+  **Chef Password**: 12345678
+
 
 ### How to use it?
 - open management website and login as admin.
