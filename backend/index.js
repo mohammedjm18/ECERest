@@ -35,6 +35,11 @@ const orderRouter = require('./routes/order');
 const managerRouter = require('./routes/manager');
 const productRouter = require('./routes/product');
 
+//API route beign fetched every 5 minutes to avoid cold starts from free hosting services
+app.get('/api/test', (req, res) => {
+  res.send('succeed');
+})
+
 app.use('/api/table', tableRouter);
 app.use('/api/auth', authRouter);
 app.use('/api/order', orderRouter);
